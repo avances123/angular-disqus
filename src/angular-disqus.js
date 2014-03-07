@@ -210,7 +210,7 @@
       restrict : 'AC',
       replace  : true,
       scope    : {
-        id : '=disqus',
+        id : '=disqus'
       },
       template : '<div id="disqus_thread"></div>',
       link: function link(scope) {
